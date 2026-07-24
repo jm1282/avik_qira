@@ -1,0 +1,47 @@
+# ==============================================================================
+# avik_qira - repository ignore rules
+# Applies to all subprojects: avik-console, avik-pc, avik-phone-horizon.
+# ==============================================================================
+
+# --- OS / shell junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDEs / editors ---
+.idea/
+.vscode/
+*.iml
+
+# --- Cursor / AI agent tooling (kept locally, not pushed) ---
+.cursor/
+.agents/
+
+# --- Gradle / Kotlin / Java build output ---
+.gradle/
+.kotlin/
+build/
+local.properties
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+coverage/
+
+# --- Archives & large binaries ---
+*.zip
+*.7z
+*.apk
+*.aab
+*.hprof
+
+# --- Logs ---
+*.log
+
+# --- Temp / scratch / debug dumps ---
+.scratch/
+tmp_acknowledge/
+_dbg*/
+_dumps_*/
+current-device.png

@@ -1,0 +1,288 @@
+{
+  "defaults": {
+    "tag": "GoodTag",
+    "hash": "sanitizedhash",
+    "locale": "en-XM",
+    "appId": "qira",
+    "script": "avik.qira.scripts.SanitizedCapture",
+    "width": 100,
+    "height": 200,
+    "order": 1,
+    "modtime": "2026-07-19 10:00:00"
+  },
+  "cases": {
+    "known_good_leaf": {
+      "texts": [
+        {
+          "text": "Settings",
+          "messageIds": ["MID_SETTINGS"],
+          "bounds": [10, 20, 70, 40]
+        }
+      ]
+    },
+    "parent_only_whole_screen": {
+      "texts": [
+        {
+          "text": "Home",
+          "messageIds": ["MID_HOME"],
+          "bounds": [0, 0, 100, 200]
+        }
+      ]
+    },
+    "tag_mismatch": {
+      "tag": "WrongTag",
+      "texts": [
+        {
+          "text": "Settings",
+          "messageIds": ["MID_SETTINGS"],
+          "bounds": [10, 20, 70, 40]
+        }
+      ]
+    },
+    "invalid_and_out_of_screen_bounds": {
+      "texts": [
+        {
+          "text": "Settings",
+          "messageIds": ["MID_SETTINGS"],
+          "bounds": [10, 20, 70, 40]
+        },
+        {
+          "text": "Invalid",
+          "messageIds": [],
+          "bounds": [20, 20, 10, 30]
+        },
+        {
+          "text": "Outside",
+          "messageIds": [],
+          "bounds": [-1, 30, 101, 50]
+        }
+      ]
+    },
+    "cross_locale_metadata_mismatch": {
+      "locale": "en-XM",
+      "directoryLocale": "fr-FR",
+      "texts": [
+        {
+          "text": "Settings",
+          "messageIds": ["MID_SETTINGS"],
+          "bounds": [10, 20, 70, 40]
+        }
+      ]
+    },
+    "parameterized_string": {
+      "texts": [
+        {
+          "text": "Hello Ada",
+          "messageIds": ["MID_HELLO_PARAMETERIZED"],
+          "bounds": [10, 20, 80, 40]
+        }
+      ]
+    },
+    "dynamic_nonlocalizable_text": {
+      "texts": [
+        {
+          "text": "Settings",
+          "messageIds": ["MID_SETTINGS"],
+          "bounds": [10, 20, 70, 40]
+        },
+        {
+          "text": "Meeting with Ada",
+          "messageIds": [],
+          "bounds": [10, 60, 90, 80]
+        }
+      ]
+    },
+    "tags_dropdown_dynamic_exact": {
+      "tag": "MotorolaQiraKnowledge_Main_TagsDropdown",
+      "texts": [
+        {"text": "Identity", "messageIds": [], "bounds": [10, 20, 70, 35]},
+        {"text": "Contact", "messageIds": [], "bounds": [10, 40, 70, 55]},
+        {"text": "Education", "messageIds": [], "bounds": [10, 60, 75, 75]},
+        {"text": "Work", "messageIds": [], "bounds": [10, 80, 55, 95]}
+      ]
+    },
+    "tags_dropdown_dynamic_missing": {
+      "tag": "MotorolaQiraKnowledge_Main_TagsDropdown",
+      "texts": [
+        {"text": "Identity", "messageIds": [], "bounds": [10, 20, 70, 35]},
+        {"text": "Contact", "messageIds": [], "bounds": [10, 40, 70, 55]},
+        {"text": "Education", "messageIds": [], "bounds": [10, 60, 75, 75]}
+      ]
+    },
+    "tags_dropdown_dynamic_extra": {
+      "tag": "MotorolaQiraKnowledge_Main_TagsDropdown",
+      "texts": [
+        {"text": "Identity", "messageIds": [], "bounds": [10, 20, 70, 35]},
+        {"text": "Contact", "messageIds": [], "bounds": [10, 40, 70, 55]},
+        {"text": "Education", "messageIds": [], "bounds": [10, 60, 75, 75]},
+        {"text": "Work", "messageIds": [], "bounds": [10, 80, 55, 95]},
+        {"text": "Hobby", "messageIds": [], "bounds": [10, 100, 60, 115]}
+      ]
+    },
+    "tags_dropdown_dynamic_unexpected": {
+      "tag": "MotorolaQiraKnowledge_Main_TagsDropdown",
+      "texts": [
+        {"text": "Identity", "messageIds": [], "bounds": [10, 20, 70, 35]},
+        {"text": "Contact", "messageIds": [], "bounds": [10, 40, 70, 55]},
+        {"text": "Education", "messageIds": [], "bounds": [10, 60, 75, 75]},
+        {"text": "Personal", "messageIds": [], "bounds": [10, 80, 65, 95]}
+      ]
+    },
+    "tags_dropdown_dynamic_with_id": {
+      "tag": "MotorolaQiraKnowledge_Main_TagsDropdown",
+      "texts": [
+        {"text": "Identity", "messageIds": ["BAD_DYNAMIC_ID"], "bounds": [10, 20, 70, 35]},
+        {"text": "Contact", "messageIds": [], "bounds": [10, 40, 70, 55]},
+        {"text": "Education", "messageIds": [], "bounds": [10, 60, 75, 75]},
+        {"text": "Work", "messageIds": [], "bounds": [10, 80, 55, 95]}
+      ]
+    },
+    "unrelated_no_link_screen": {
+      "texts": [
+        {"text": "Unknown static title", "messageIds": [], "bounds": [10, 20, 90, 40]}
+      ]
+    },
+    "linked_parent_container": {
+      "texts": [
+        {
+          "text": "Parent description",
+          "messageIds": ["MID_PARENT"],
+          "bounds": [0, 0, 100, 150],
+          "qiraAccessibilitySourceKind": "DESCRIPTION",
+          "qiraAccessibilityNodePath": "window-1/0"
+        },
+        {
+          "text": "Child text",
+          "messageIds": ["MID_CHILD"],
+          "bounds": [10, 20, 80, 40],
+          "qiraAccessibilitySourceKind": "TEXT",
+          "qiraAccessibilityNodePath": "window-1/0/1"
+        }
+      ]
+    },
+    "geometric_containment_unrelated_paths": {
+      "texts": [
+        {
+          "text": "Background description",
+          "messageIds": ["MID_BACKGROUND"],
+          "bounds": [0, 0, 100, 150],
+          "qiraAccessibilitySourceKind": "DESCRIPTION",
+          "qiraAccessibilityNodePath": "window-1/0"
+        },
+        {
+          "text": "Foreground text",
+          "messageIds": ["MID_FOREGROUND"],
+          "bounds": [10, 20, 80, 40],
+          "qiraAccessibilitySourceKind": "TEXT",
+          "qiraAccessibilityNodePath": "window-1/2"
+        }
+      ]
+    },
+    "geometric_containment_different_roots": {
+      "texts": [
+        {
+          "text": "Window one",
+          "messageIds": ["MID_WINDOW_ONE"],
+          "bounds": [0, 0, 100, 150],
+          "qiraAccessibilitySourceKind": "DESCRIPTION",
+          "qiraAccessibilityNodePath": "window-1/0"
+        },
+        {
+          "text": "Window two child",
+          "messageIds": ["MID_WINDOW_TWO"],
+          "bounds": [10, 20, 80, 40],
+          "qiraAccessibilitySourceKind": "TEXT",
+          "qiraAccessibilityNodePath": "window-2/0/1"
+        }
+      ]
+    },
+    "suppressed_unlinked_ancestor": {
+      "texts": [
+        {
+          "text": "Preserved parent evidence",
+          "messageIds": [],
+          "bounds": [0, 0, 100, 150],
+          "qiraAccessibilitySourceKind": "DESCRIPTION",
+          "qiraAccessibilityNodePath": "window-1/0"
+        },
+        {
+          "text": "Linked child",
+          "messageIds": ["MID_CHILD"],
+          "bounds": [10, 20, 80, 40],
+          "qiraAccessibilitySourceKind": "DESCRIPTION",
+          "qiraAccessibilityNodePath": "window-1/0/1"
+        }
+      ]
+    },
+    "legacy_geometric_containment": {
+      "texts": [
+        {"text": "Legacy parent", "messageIds": ["MID_PARENT"], "bounds": [0, 0, 100, 150]},
+        {"text": "Legacy child", "messageIds": ["MID_CHILD"], "bounds": [10, 20, 80, 40]}
+      ]
+    },
+    "malformed_accessibility_path": {
+      "texts": [
+        {
+          "text": "Malformed",
+          "messageIds": ["MID_MALFORMED"],
+          "bounds": [10, 20, 80, 40],
+          "qiraAccessibilitySourceKind": "TEXT",
+          "qiraAccessibilityNodePath": "window-one/not-an-index"
+        }
+      ]
+    },
+    "linked_and_unlinked_same_bounds": {
+      "texts": [
+        {
+          "text": "Visible text",
+          "messageIds": ["MID_TEXT"],
+          "bounds": [10, 20, 80, 40],
+          "qiraAccessibilitySourceKind": "TEXT"
+        },
+        {
+          "text": "Description evidence",
+          "messageIds": [],
+          "bounds": [10, 20, 80, 40],
+          "qiraAccessibilitySourceKind": "DESCRIPTION"
+        }
+      ]
+    },
+    "duplicate_linked_bounds": {
+      "texts": [
+        {"text": "First", "messageIds": ["MID_FIRST"], "bounds": [10, 20, 80, 40]},
+        {"text": "Second", "messageIds": ["MID_SECOND"], "bounds": [10, 20, 80, 40]}
+      ]
+    },
+    "rtl_coordinates": {
+      "locale": "ar-EG",
+      "directoryLocale": "ar-EG",
+      "texts": [
+        {
+          "text": "الإعدادات",
+          "messageIds": ["MID_SETTINGS_RTL"],
+          "bounds": [62, 20, 96, 40]
+        }
+      ]
+    },
+    "app_id_and_script_mismatch": {
+      "appId": "qira_v2",
+      "script": "avik.qira_v2.scripts.SanitizedCapture",
+      "texts": [
+        {
+          "text": "Settings",
+          "messageIds": ["MID_SETTINGS"],
+          "bounds": [10, 20, 70, 40]
+        }
+      ]
+    },
+    "placeholder_wildcard_leakage": {
+      "texts": [
+        {
+          "text": "Dynamic user title",
+          "messageIds": ["5HQQfXNKx50UU0Nn1RHqH5"],
+          "bounds": [10, 20, 90, 40]
+        }
+      ]
+    }
+  }
+}

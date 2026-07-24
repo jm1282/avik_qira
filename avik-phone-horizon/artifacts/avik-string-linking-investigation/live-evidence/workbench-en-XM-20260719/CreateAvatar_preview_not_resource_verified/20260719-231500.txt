@@ -1,0 +1,114 @@
+# Qira UI dump
+# tag: MotorolaQiraCreatorZone_CreateAvatar_preview_not_resource_verified
+# timestamp: 20260719-231500
+# package_filter: <none>
+# current_package: com.lenovo.qira
+# display: 1080x2520 rot=0
+# note: Create avatar preview/create surface did not expose cd_selected_photo_preview, replace_label, and generate_image_button. Current package=com.lenovo.qira.
+
+# columns: resource-id	class	content-desc	text	clickable	bounds	package
+	android.view.View	Back icon⁦‎‏‏‎‏‏‎‎‏‏‎‏‎‏‏‎‎‏‏‏‎‏‎‎‏‏‏‎‏‏‎‎‏‏‏‏‏‏‎‏‏‏‏‏‎‎‏‏‎‏‎‎‏‎‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‏‏‏‏‏‎‏‎‎‏‏‏‎‎‎‏‏‎‏‏‏‎‏‎‎‏‏‎‎‏‎‏‏‎‎‎‏‎‏‏‎‏‎‏‎‎‎‏‎‏‏‎‏‎‎‎‎‏‎‏‎‎‎‏‏‎‏‏‎‏‎‏‎‎‏‎‎‏‏‏‏‎‏‎‏⁩		false	116,1313,179,1376	com.lenovo.qira
+	android.view.View	Motorola Qira⁦‎‏‏‎‎‎‏‏‎‎‏‎‏‏‏‎‏‎‏‏‎‎‏‏‏‎‎‎‎‏‏‎‏‏‎‏‏‎‏‎‏‏‏‎‏‎‎‏‎‏‏‎‎‏‏‎‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‎‏‏‏‎‏‎‏‏‎‏‎‏‏‏‎‏‎‎‏‏‎‎‎‏‎‏‎‎‎‏‎‎‏‎‏‎‏‎‎‏‏‎‏‎‎‎‏‎‏‎‏‏‎‏‏‎‎‎‏‎‏‎‏‎‎‏‏‎‏‏‎‎‎‎‏‏‏‏‎‎‏⁩		false	902,1313,965,1376	com.lenovo.qira
+	android.widget.TextView		9223372036854775807/9223372036854775807 left today⁦‎‏‏‎‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‏‎‎‏‏‏‎‎‏‏‎‏‎‎‏‎‏‎‏‎‎‏‎‏‎‎‏‎‏‏‏‎‏‏‎‏‏‎‏‏‏‏‏‏‎‎‏‎‎‏‎‎‏‎‏‎‏‎‎‏‎‎‎‏‏‎‏‏‎‎‏‏‏‎‎‎‏‎‏‏‎‏‏‏‏‏‎‎‏‎‎‏‎‎‏‏‏‏‏‏‎‏‏‎‏‏‎‏‏‎‏‎‏‏‏‎‏‎‏‏‎‏‎‏‏‏‎‏‏‏‎‎‎⁩	false	179,2216,1035,2254	com.lenovo.qira
+	android.widget.ImageView	Information⁦‎‏‏‎‎‏‎‎‏‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‎‏‏‏‏‎‎‏‏‏‏‎‏‏‎‏‎‏‏‎‎‏‏‎‎‏‏‎‎‎‎‏‏‎‎‎‏‎‏‏‎‎‎‏‎‏‏‎‎‎‏‏‎‏‎‎‏‏‎‏‏‎‎‏‎‏‏‏‏‎‏‎‎‏‏‎‎‎‏‏‎‏‎‏‎‎‎‎‏‎‏‏‎‎‎‎‏‏‎‎‎‎‏‎‎‎‏‎‎‏‏‏‎‎‎‎‏‏‎‎‏‏‏‏‏‏‎‏‎‎⁩		true	379,2172,497,2298	com.lenovo.qira
+	android.view.View	Replace⁦‎‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‎‏‏‎‎‏‏‏‎‎‏‏‎‎‏‎‏‎‏‎‏‏‎‎‏‏‏‎‎‏‎‏‏‎‎‎‏‏‎‎‎‎‏‎‏‎‎‏‏‎‏‏‎‏‎‏‎‎‎‏‏‎‏‎‎‏‏‎‏‏‎‎‏‏‎‏‎‎‎‏‎‏‎‏‎‏‏‎‎‎‏‎‏‏‏‎‎‎‏‏‏‎‎‏‎‎‏‏‎‎‎‏‎‏‏‏‏‎‏‎‏‏‎‎‏‏‏‎‏‏‏‎‏‏‎⁩		false	523,2219,555,2251	com.lenovo.qira
+	android.widget.TextView		Replace⁦‎‏‏‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‎‏‏‎‎‏‏‏‎‎‏‏‎‎‏‎‏‎‏‎‏‏‎‎‏‏‏‎‎‏‎‏‏‎‎‎‏‏‎‎‎‎‏‎‏‎‎‏‏‎‏‏‎‏‎‏‎‎‎‏‏‎‏‎‎‏‏‎‏‏‎‎‏‏‎‏‎‎‎‏‎‏‎‏‎‏‏‎‎‎‏‎‏‏‏‎‎‎‏‏‏‎‎‏‎‎‏‏‎‎‎‏‎‏‏‏‏‎‏‎‏‏‎‎‏‏‏‎‏‏‏‎‏‏‎⁩	false	571,2214,692,2256	com.lenovo.qira
+	android.widget.TextView		Create⁦‎‏‏‎‎‏‎‏‏‎‎‏‏‏‏‎‏‎‎‏‎‎‏‏‏‎‎‏‏‏‎‏‎‎‎‎‏‏‎‏‎‏‏‎‏‏‎‏‎‏‏‎‏‎‎‎‏‎‎‎‏‎‎‏‎‎‏‎‎‎‏‏‏‏‎‎‏‏‎‏‎‎‏‎‏‏‎‎‏‎‎‏‏‎‎‏‏‏‏‏‎‎‎‏‎‏‎‏‏‎‏‎‏‏‎‎‏‎‏‏‎‏‎‎‏‎‏‏‎‏‎‎‎‏‏‎‏‏‏‏‏‏‏‎‎‏‏‏‏‏‎‏‎‎⁩	false	789,2214,890,2256	com.lenovo.qira
+	android.widget.TextView		AI-generated content may be inaccurate, may not reflect real-world diversity, and may be unsuitable for minors.⁦‎‏‏‎‏‎‎‏‏‎‏‏‎‏‏‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‎‎‎‏‏‏‎‎‏‎‎‏‏‎‎‏‎‎‎‏‏‎‏‏‏‎‎‏‏‎‏‎‏‏‎‎‏‏‎‏‏‎‎‏‏‏‎‏‏‏‎‏‏‏‏‏‏‎‎‎‏‏‏‏‎‏‏‏‏‎‎‏‏‏‏‏‎‎‎‏‎‎‏‏‏‎‎‎‏‏‏‎‎‏‏‏‎‏‏‎‎‏‎‎‏‏‏‎‎‎‎‏‏‎‏‎‎‏‏‎‏‎‏‎⁩	false	95,2324,985,2394	com.lenovo.qira
+android:id/content	android.widget.FrameLayout			false	0,0,1080,2520	com.lenovo.qira
+com.lenovo.qira:id/action_bar_root	android.widget.LinearLayout			false	0,0,1080,2520	com.lenovo.qira
+com.android.systemui:id/status_bar_launch_animation_container	android.widget.FrameLayout			false	0,0,1080,123	com.android.systemui
+com.android.systemui:id/container	android.widget.FrameLayout			false	0,0,1080,123	com.android.systemui
+com.android.systemui:id/clock	android.widget.TextView	23:15	23:15	false	39,45,173,90	com.android.systemui
+	android.widget.ImageView	Motorola Qira⁦‎‏‏‎‎‎‏‏‎‎‏‎‏‏‏‎‏‎‏‏‎‎‏‏‏‎‎‎‎‏‏‎‏‏‎‏‏‎‏‎‏‏‏‎‏‎‎‏‎‏‏‎‎‏‏‎‏‏‎‏‎‏‏‏‏‎‎‏‎‏‏‏‎‏‏‏‎‏‎‏‏‎‏‎‏‏‏‎‏‎‎‏‏‎‎‎‏‎‏‎‎‎‏‎‎‏‎‏‎‏‎‎‏‏‎‏‎‎‎‏‎‏‎‏‏‎‏‏‎‎‎‏‎‏‎‏‎‎‏‏‎‏‏‎‎‎‎‏‏‏‏‎‎‏⁩ notification: ⁦‎‏‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‎‏‎‎‎‏‏‎‏‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‎‏‎‎‎‏‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‎‎‏‏‏‎‏‎‏‎‏‏‎‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‏‎‎‏⁩		false	173,13,237,123	com.android.systemui
+	android.widget.ImageView	Dual SIM Settings⁦‎‏‏‎‏‏‎‏‎‎‎‎‏‏‎‏‏‎‏‎‎‎‏‏‎‏‎‏‏‎‎‎‎‏‏‏‎‏‎‏‎‎‏‎‎‏‏‏‏‏‎‎‏‏‎‏‏‏‎‎‏‏‎‏‎‏‏‎‎‏‏‏‎‏‏‎‏‏‎‎‎‏‏‏‏‎‎‏‏‏‏‏‏‏‎‎‎‎‏‏‎‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‏‏‎‏‎‎‏‎‏‎‏‎‎‎‎‎‏‏‎‏‎‎‏‎‏‎‎‎‎‎‏⁩ notification: ⁦‎‏‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‎‏‎‎‎‏‏‎‏‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‎‏‎‎‎‏‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‎‎‏‏‏‎‏‎‏‎‏‏‎‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‏‎‎‏⁩		false	237,13,301,123	com.android.systemui
+	android.widget.ImageView	Android System⁦‎‏‏‎‎‎‏‏‏‏‎‎‎‎‏‏‏‎‎‎‎‏‎‏‏‎‎‎‏‏‎‏‏‎‏‏‎‎‎‏‏‏‏‏‎‏‏‎‎‏‏‎‏‎‎‏‏‎‎‎‏‏‎‏‏‎‎‏‎‏‏‏‎‏‏‏‎‏‏‎‎‎‎‏‏‎‎‎‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‎‎‏‎‏‏‎‎‎‏‏‎‏‏‏‎‎‏‏‎‎‏‎‏‏‎‏‎‏‏‎‏‏‎‏‎‏‎‏‏‎‏‏‏‏‎‏‎‎‏‏⁩ notification: ⁦‎‏‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‎‏‎‎‎‏‏‎‏‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‎‏‎‎‎‏‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‎‎‏‏‏‎‏‎‏‎‏‏‎‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‏‎‎‏⁩		false	301,13,365,123	com.android.systemui
+	android.widget.ImageView	Find Hub notification: ⁦‎‏‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‎‏‎‎‎‏‏‎‏‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‎‏‎‎‎‏‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‎‎‏‏‏‎‏‎‏‎‏‏‎‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‏‎‎‏⁩		false	365,13,429,123	com.android.systemui
+	android.widget.ImageView	Settings⁦‎‏‏‎‏‏‎‏‎‏‏‎‎‎‏‏‎‏‎‎‏‏‏‏‎‎‏‎‏‎‏‎‏‏‏‏‎‎‎‏‎‎‏‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‏‏‎‏‎‏‏‏‎‎‏‏‏‏‎‏‎‎‎‏‏‏‎‎‎‎‏‎‏‏‎‎‏‏‎‎‏‎‎‏‏‏‏‏‎‏‎‏‎‎‎‏‎‎‏‎‎‏‏‎‏‏‎‎‏‏‎‏‎‏‏‎‎‏‎‏‎‎‎‎‎‏‏‎‎‎‏‎‏‏‏‏‏‎‎‎⁩ notification: ⁦‎‏‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‎‎‎‎‏‎‏‎‎‎‏‏‎‏‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‎‏‎‎‎‏‎‎‎‏‎‎‏‎‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‏‎‎‎‏‏‏‎‏‎‏‎‏‏‎‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‎‏‏‏‏‎‎‏‎‏‏‏‏‎‎‏⁩		false	429,13,489,123	com.android.systemui
+com.android.systemui:id/notificationIcons	android.view.ViewGroup			false	173,13,489,123	com.android.systemui
+com.android.systemui:id/notification_icon_area	android.widget.FrameLayout			false	173,13,489,123	com.android.systemui
+com.android.systemui:id/status_bar_start_side_except_heads_up	android.widget.LinearLayout			false	39,13,502,123	com.android.systemui
+com.android.systemui:id/status_bar_start_side_content	android.widget.FrameLayout			false	39,13,502,123	com.android.systemui
+com.android.systemui:id/status_bar_start_side_container	android.widget.FrameLayout			false	39,13,502,123	com.android.systemui
+com.android.systemui:id/cutout_space_view	android.view.View			false	502,13,578,123	com.android.systemui
+com.android.systemui:id/wifi_signal	android.widget.ImageView	Wifi signal full.⁦‎‏‏‎‎‏‎‏‎‎‎‏‏‏‎‏‏‎‎‎‏‏‎‎‏‎‏‏‏‏‏‎‎‏‎‏‎‎‎‏‎‎‏‏‎‎‏‎‏‏‎‏‎‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‏‏‎‎‏‎‎‏‎‏‏‎‎‏‏‏‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‎‎‏‏‎‏‎‎‏‎‎‎‏‎‏‏‎‎‏‏‎‎‏‏‏‎‎‏‏‎‎‏‎‏‏‏‏‎‎‎‎‏‏‎‎‎‎‏‎‏‎‏‎‏⁩		false	944,48,983,87	com.android.systemui
+com.android.systemui:id/wifi_combo	android.widget.FrameLayout			false	944,48,983,87	com.android.systemui
+com.android.systemui:id/wifi_group	android.widget.LinearLayout			false	944,39,983,97	com.android.systemui
+com.android.systemui:id/wifi_combo	android.widget.FrameLayout			false	937,39,983,97	com.android.systemui
+com.android.systemui:id/statusIcons	android.widget.LinearLayout			false	937,39,999,97	com.android.systemui
+com.android.systemui:id/battery	android.widget.LinearLayout	Battery charging, 100 percent.⁦‎‏‏‎‏‏‏‎‏‏‎‎‎‏‏‏‎‏‏‏‎‏‏‎‎‏‏‎‏‏‏‎‏‎‏‏‎‏‏‎‏‎‏‎‏‎‏‏‎‏‏‎‎‎‏‎‎‏‏‎‏‎‏‏‏‎‏‎‎‏‏‎‏‎‎‎‎‏‏‏‎‎‎‎‏‏‎‏‎‏‎‏‎‎‏‏‏‏‎‏‏‎‎‏‏‏‏‏‎‏‏‏‏‏‎‏‎‎‎‎‏‏‎‎‏‎‏‏‏‎‏‎‏‏‎‏‎‎‏‏‏‎‎‏‏‎‎‏‎‎‏‎‏‎⁩		false	999,51,1030,85	com.android.systemui
+com.android.systemui:id/system_icons	android.widget.LinearLayout			false	929,39,1041,97	com.android.systemui
+com.android.systemui:id/status_bar_end_side_content	android.widget.LinearLayout			false	929,13,1041,123	com.android.systemui
+com.android.systemui:id/status_bar_end_side_container	android.widget.FrameLayout			false	578,13,1041,123	com.android.systemui
+com.android.systemui:id/status_bar_contents	android.widget.LinearLayout			false	28,0,1052,123	com.android.systemui
+com.android.systemui:id/status_bar	android.widget.FrameLayout			false	0,0,1080,123	com.android.systemui
+com.android.systemui:id/status_bar_container	android.widget.FrameLayout			false	0,0,1080,123	com.android.systemui
+	android.widget.TextView		Creator Zone⁦‎‏‏‎‏‎‏‏‎‏‎‏‏‏‏‏‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‎‏‏‏‏‎‏‎‏‏‎‏‏‏‏‎‎‎‏‏‏‏‎‏‎‏‏‏‎‎‏‎‏‏‎‏‎‎‎‏‏‎‎‏‎‎‏‎‏‎‏‏‏‏‎‎‎‎‏‏‏‏‎‏‎‎‏‏‏‎‎‎‎‏‏‎‏‎‏‎‏‏‎‏‏‎‎‏‎‏‏‎‎‏‎‎‏‏‎‏‎‎‏‏‎‎‏‎‏‏‏‏‎‎‏‎‏‎‎‏‎‎‏⁩	false	42,252,447,330	com.lenovo.qira
+	android.widget.TextView		Enable everyone's creativity, create without limits.⁦‎‏‏‎‏‏‏‏‏‎‎‏‎‏‎‏‏‎‎‏‎‏‎‏‎‎‏‏‏‏‎‎‏‎‏‏‏‎‏‏‎‏‎‏‏‏‎‎‏‏‎‏‎‏‎‎‏‏‏‏‎‎‎‏‏‏‎‎‎‎‎‏‏‎‏‎‎‏‎‎‏‏‏‎‏‏‏‎‎‏‏‏‏‏‎‏‏‎‏‎‎‏‏‎‏‏‎‏‎‎‏‎‏‎‏‎‎‎‎‎‏‏‎‎‎‏‏‏‎‎‎‏‎‏‎‏‏‎‎‏‏‎‎‏‎‏‎‏‏‎‏‎‏‎⁩	false	42,362,870,415	com.lenovo.qira
+	android.widget.TextView		Create image⁦‎‏‏‎‎‎‏‏‏‎‎‎‎‏‏‎‎‎‎‏‏‏‏‏‎‎‎‎‏‎‏‎‏‎‏‏‏‎‎‏‏‎‏‎‏‎‏‏‏‏‎‎‏‏‎‏‏‎‎‏‎‏‏‏‏‏‏‎‎‏‎‏‏‎‏‎‏‏‎‎‎‏‎‏‏‏‏‎‏‎‎‏‎‎‏‎‏‏‏‏‏‎‎‏‏‏‎‏‎‏‎‎‏‏‏‎‏‎‏‏‏‎‏‎‎‎‏‏‎‏‏‎‏‏‏‎‏‎‏‏‎‏‏‎‏‏‎⁩	false	95,653,304,706	com.lenovo.qira
+	android.widget.TextView		Edit image⁦‎‏‏‎‏‎‎‏‎‎‏‎‏‏‏‏‎‏‏‎‏‏‎‎‎‎‏‎‏‎‎‏‎‏‏‏‎‏‎‏‎‎‏‏‎‎‏‏‏‏‏‎‎‏‎‎‎‏‏‏‎‎‎‏‏‎‎‏‎‎‏‏‏‎‎‏‎‏‎‎‏‏‎‏‎‏‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‏‏‎‎‏‏‎‏‏‏‎‎‏‏‎‎‏‎‏‎‎‏‎‏‏‏‎‎‎‏‏‏‏‎‎‎‏‏‎‏‎‎‎‎‎‏‏‏‏‎‏‏‎⁩	false	456,653,625,706	com.lenovo.qira
+	android.widget.TextView		Create avatar⁦‎‏‏‎‏‎‎‎‏‏‎‏‏‎‎‏‏‎‏‏‎‏‎‏‎‏‏‎‏‏‎‎‎‏‏‏‎‏‏‎‏‎‏‎‏‎‏‏‎‏‎‎‏‎‏‏‏‏‎‏‏‏‏‏‏‏‎‏‏‏‏‎‎‏‎‎‏‏‏‎‏‎‎‏‏‎‎‏‎‎‏‎‏‏‏‎‎‎‏‎‎‏‏‎‏‏‎‏‎‎‎‏‏‏‎‏‎‎‏‏‎‎‏‏‏‎‏‏‎‏‏‏‎‏‎‎‎‏‎‏‏‏‎‏‏‎‎‏‏‏‏‎‎‎⁩	false	776,653,986,706	com.lenovo.qira
+	android.widget.TextView		Create sticker⁦‏‎‏‏‎‎‎‏‎‎‎‏‏‏‏‏‏‏‎‎‎‏‎‏‎‎‎‏‏‎‎‏‎‏‏‏‏‏‏‎‏‎‏‏‎‏‏‏‏‏‏‏‎‎‎‎‏‏‏‎‎‏‏‏‏‎‎‏‎‎‏‏‏‎‏‎‏‎‏‏‎‎‎‏‏‎‏‎‎‎‎‏‎‏‎‏‎‏‎‏‏‎‏‎‏‏‎‎‎‏‏‎‏‏‎‏‎‎‎‏‏‏‎‎‏‏‏‏‏‏‎‎‏‏‎‎‎‏‎‏‏‏‎‏‎‏‏⁩	false	91,998,308,1051	com.lenovo.qira
+	android.widget.TextView		Scribble⁦‏‎‏‎‏‎‏‏‎‏‎‎‏‎‎‏‏‎‎‏‎‏‎‎‎‎‎‏‎‏‏‏‎‎‏‎‏‏‎‎‏‏‏‎‏‎‏‎‎‎‏‏‏‎‎‎‏‎‎‏‎‎‎‏‏‏‏‎‏‎‏‎‎‏‏‎‎‏‏‏‎‎‏‏‏‎‏‎‎‏‎‎‏‏‎‏‎‏‎‏‏‎‎‎‎‎‏‏‎‎‎‎‏‎‏‎‏‏‎‏‏‎‎‎‏‏‏‏‏‎‎‏‎‏‏‏‎‎‏‎‏‏‎‎‎‏‏⁩	false	477,998,605,1051	com.lenovo.qira
+	android.widget.TextView		Style Sync⁦‎‏‏‎‏‎‎‏‎‏‏‎‏‎‎‏‏‎‎‏‏‎‏‏‎‏‎‏‏‎‎‎‏‎‏‏‎‏‎‎‏‎‏‏‎‎‎‏‏‏‏‏‎‎‎‎‏‏‎‎‏‎‎‏‏‎‎‏‏‏‏‏‎‏‏‎‏‏‎‏‏‎‎‏‏‎‎‎‎‏‎‏‎‏‏‎‏‎‎‏‏‎‏‎‏‏‎‎‏‎‏‏‏‎‏‏‎‎‎‏‏‎‏‎‏‏‏‎‎‏‎‏‏‏‎‏‎‏‏‏‏‎‎‎‏‎‎‏‏‎‏‏‎‎⁩	false	800,998,962,1051	com.lenovo.qira
+	android.widget.TextView		History⁦‎‏‏‎‏‎‎‏‏‎‏‎‏‎‎‏‏‏‎‎‎‏‏‏‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‎‎‎‏‏‏‏‎‎‎‏‎‎‏‏‎‎‏‏‎‏‏‎‎‏‏‎‏‎‎‎‎‏‏‎‎‏‎‏‏‎‏‏‎‏‎‏‏‏‎‎‎‏‎‏‎‏‎‎‏‎‏‎‎‎‎‏‎‎‎‏‎‎‏‏‏‏‎‎‎‏‎‏‎‏‏‏‏‏‏‎‏‏‏‏‏‎‏‏‎‏‎‏‏‏‎‎‏‎‏‏‎‏‏‎⁩	false	42,1192,170,1237	com.lenovo.qira
+	android.widget.TextView		View more⁦‎‏‏‎‏‏‎‏‎‎‎‏‏‎‏‎‎‎‎‏‏‏‏‎‏‏‎‏‏‏‏‏‎‎‏‏‏‏‏‎‎‎‎‏‏‎‏‎‎‏‎‎‎‏‎‎‏‎‎‎‎‎‏‏‎‎‎‏‏‏‏‏‎‎‏‏‎‏‏‏‏‎‏‎‏‏‎‎‎‏‏‏‎‎‎‏‎‎‏‏‎‎‏‎‏‎‏‏‏‎‎‎‏‏‏‏‎‎‏‏‏‎‎‎‏‎‏‏‎‎‏‏‎‏‏‏‎‏‎‎‏‎‏‎‎‎‏‏‏‎‏‎‎‎⁩	false	840,1188,1006,1241	com.lenovo.qira
+	android.view.View	mobile_text_to_image_2026-07-19T231257Z.png		false	42,1277,519,1754	com.lenovo.qira
+	android.widget.ImageView	Menu⁦‎‏‏‎‏‏‏‏‏‎‎‎‎‏‎‏‏‎‏‏‎‏‏‎‎‎‏‎‎‏‏‏‎‎‎‎‏‏‏‎‎‏‎‏‏‏‎‎‎‏‎‏‎‎‏‎‏‎‏‎‎‏‏‎‏‏‎‎‎‏‎‏‏‎‏‎‏‎‏‏‏‎‎‎‏‏‏‎‎‎‏‎‏‏‎‎‏‎‏‏‏‎‎‎‎‎‏‏‎‏‎‎‎‏‏‎‎‎‎‏‏‎‎‎‎‏‏‎‎‏‏‎‏‏‎‎‏‏‎‎‏‎‎‏‎‏‏‏‏‏‏‎‎‏⁩		true	11,116,137,242	com.lenovo.qira
+	android.widget.ImageView	App Icon⁦‎‏‏‎‏‏‎‏‎‎‎‏‎‎‏‏‏‎‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‎‎‎‏‏‎‎‏‎‎‏‏‏‏‎‏‏‎‏‎‏‏‎‏‎‏‎‎‏‎‏‎‏‏‎‎‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‏‎‏‏‎‏‏‏‏‎‎‎‏‏‏‏‎‏‎‏‎‏‎‎‏‏‏‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎‎‏‏‎‏‏‏‎‏‎‎‏⁩		false	392,137,626,221	com.lenovo.qira
+	android.widget.ImageView	Profile Picture⁦‎‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‏‎‎‏‎‏‏‎‎‎‏‏‏‎‎‏‎‎‏‏‎‏‎‎‏‏‏‎‏‏‎‎‏‎‎‏‎‎‏‏‏‎‏‎‎‏‏‏‎‎‎‏‏‏‏‏‎‎‎‏‏‏‎‎‏‏‎‏‎‏‎‎‎‎‏‏‎‎‏‎‎‏‏‎‏‎‎‎‏‎‎‎‏‎‏‏‎‏‎‎‏‏‏‏‏‎‏‏‎‏‏‏‎‎‏‎‎‏‏‎‏‎‎‏‎‏‏‎‏‎‏‎‎‏‎‎‎⁩		true	923,116,1049,242	com.lenovo.qira
+	android.view.View	App Icon⁦‎‏‏‎‏‏‎‏‎‎‎‏‎‎‏‏‏‎‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‎‎‎‏‏‎‎‏‎‎‏‏‏‏‎‏‏‎‏‎‏‏‎‏‎‏‎‎‏‎‏‎‏‏‎‎‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‏‎‏‏‎‏‏‏‏‎‎‎‏‏‏‏‎‏‎‏‎‏‎‎‏‏‏‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎‎‏‏‎‏‏‏‎‏‎‎‏⁩		false	194,2276,283,2365	com.lenovo.qira
+	android.view.View	Chat⁦‏‏‏‎‎‏‎‏‎‎‎‎‏‎‏‏‎‏‎‎‎‏‏‎‎‏‎‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‏‏‎‏‏‎‏‏‏‎‏‎‎‏‏‎‎‎‏‏‏‏‎‏‎‎‎‏‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‎‎‎‎‏‏‎‏‎‎‎‏‎‏‏‎‎‏‎‎‏‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‎‏‏‎‏‏‎⁩		false	381,2293,433,2348	com.lenovo.qira
+	android.view.View	Live⁦‎‏‏‎‎‎‏‎‏‏‎‏‎‎‏‏‏‎‏‏‎‎‏‏‎‎‎‎‎‏‏‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‏‎‏‏‎‎‎‎‏‎‏‎‏‎‎‎‏‏‎‎‎‎‏‏‎‎‎‎‏‏‎‎‏‎‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‏‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‏‎‎‏‎‏‎‎‎‏‎‏‏‏‏‎‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‏‏⁩		false	522,2289,588,2352	com.lenovo.qira
+	android.view.View	Catch me up⁦‎‏‏‎‏‎‏‏‏‎‎‎‏‏‎‏‏‎‏‏‎‏‏‏‎‏‎‎‏‏‎‏‏‎‏‏‎‎‏‎‎‎‏‎‏‎‎‎‎‎‏‏‏‎‎‏‏‏‎‎‎‏‏‏‏‏‎‎‏‏‏‎‎‎‏‎‎‏‏‎‎‎‏‏‎‏‏‎‎‏‎‏‏‏‎‏‏‎‏‏‏‎‏‎‏‏‏‏‎‎‏‎‏‎‎‎‏‎‎‎‏‏‎‎‎‎‏‎‎‎‎‎‏‏‎‎‏‏‎‏‏‎‏‎‏‎‎‏‏‎‎‎‎‏⁩		false	672,2289,735,2352	com.lenovo.qira
+	android.view.View	Record⁦‎‏‏‎‎‏‎‎‏‏‎‏‎‏‏‎‏‏‎‎‏‏‎‎‏‏‏‎‏‏‏‎‎‎‎‏‎‏‎‏‏‏‏‎‎‎‎‏‏‎‏‏‎‏‏‎‎‏‏‎‎‎‏‏‎‏‎‎‎‏‏‎‎‏‎‏‏‏‎‏‎‏‏‎‏‏‏‎‏‎‏‏‏‏‎‏‎‏‏‎‎‏‏‏‏‏‏‎‏‎‎‏‏‎‎‏‏‎‏‏‎‏‎‎‏‎‏‏‏‎‏‏‏‏‏‎‏‏‎‏‏‏‏‎‎‎‎‏‏‎‎‏‎‏⁩		false	811,2289,874,2352	com.lenovo.qira
+android:id/content	android.widget.FrameLayout			false	0,0,1080,2520	com.lenovo.qira
+com.motorola.launcher3:id/scrim_view	android.view.View			false	0,0,1080,2520	com.motorola.launcher3
+com.motorola.timeweatherwidget:id/v_date	android.widget.TextView	Sun, Jul 19	Sun, Jul 19	true	74,250,1006,329	com.motorola.timeweatherwidget
+com.motorola.timeweatherwidget:id/v_clock	android.widget.TextView	23:15	23:15	true	63,329,1017,585	com.motorola.timeweatherwidget
+com.motorola.timeweatherwidget:id/clock_layout	android.widget.FrameLayout			false	63,329,1017,585	com.motorola.timeweatherwidget
+com.motorola.timeweatherwidget:id/img_v_widget_weather_icon	android.widget.ImageView			false	315,587,368,640	com.motorola.timeweatherwidget
+com.motorola.timeweatherwidget:id/v_widget_start_text	android.widget.TextView		100% Connected ⁦‎‏‏‎‎‏‏‏‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‏‎‏‏‎‏‏‏‎‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‎‎‏‏‏‏‎‎‎‏‏‎‎‏‎‎‎‏‏‎‎‎‎‏‏‎‏‏‎‎‏‎‎‏‏‏‏‏‏‎‏‏‏‎‏‎‏‎‎‎‏‏‏‎‏‎‎‎‏‎‎‏‎‎‏‏‏‎‏‏‏‏‏‏‏‏‎‏‎‏‏‏‎‎‎‎‏‏‏‎‎‎‏‎‏‏‎‎‎‏‏‏‏‎‏‎‎⁩	false	384,585,764,642	com.motorola.timeweatherwidget
+com.motorola.timeweatherwidget:id/v_add_cities_layout	android.widget.LinearLayout			true	74,585,1006,642	com.motorola.timeweatherwidget
+com.motorola.timeweatherwidget:id/weather_include	android.widget.FrameLayout			false	74,585,1006,690	com.motorola.timeweatherwidget
+com.motorola.timeweatherwidget:id/layout_content	android.widget.LinearLayout			false	63,250,1017,690	com.motorola.timeweatherwidget
+com.motorola.timeweatherwidget:id/weather_anim_view	android.widget.FrameLayout			false	63,245,1017,695	com.motorola.timeweatherwidget
+android:id/background	android.widget.FrameLayout			false	63,166,1017,774	com.motorola.timeweatherwidget
+	com.android.launcher3.widget.LauncherAppWidgetHostView	Clean⁦‎‏‏‎‏‎‏‏‎‏‎‏‎‎‏‏‎‎‏‏‎‏‎‎‎‎‎‏‏‏‏‎‏‏‎‏‏‎‎‎‏‎‏‏‎‎‎‏‏‏‏‏‎‎‏‏‏‎‏‏‎‎‎‏‏‎‎‎‏‏‏‎‎‎‎‎‏‏‏‎‎‎‎‏‏‏‎‏‏‎‎‎‏‏‎‏‎‏‏‎‎‎‏‎‏‎‏‏‎‎‎‎‏‏‎‏‏‏‎‎‏‏‎‎‎‎‏‎‎‎‏‏‏‎‏‏‎‎‏‏‏‎‏‎‎‎‎‏‏‏‏‎‏‎⁩		false	48,151,1032,789	com.motorola.launcher3
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_ghost_google_logo	android.widget.FrameLayout			true	63,1194,189,1341	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_ghost_text_search	android.widget.FrameLayout			true	189,1194,765,1341	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_ghost_voice_search	android.widget.FrameLayout			true	765,1194,891,1341	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_ghost_lens	android.widget.FrameLayout			true	891,1194,1017,1341	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_ghost_tap_targets_4dp	android.widget.LinearLayout			false	63,1194,1017,1341	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_background_protection	android.widget.ImageView			false	63,1204,1017,1330	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_background	android.widget.ImageView	Google search		true	63,1204,1017,1330	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_doodle	android.widget.ImageButton	World Cup 2026: A celebration		true	63,1204,189,1330	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_edit_frame	android.widget.FrameLayout			false	189,1204,765,1330	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_voice_btn	android.widget.ImageButton	Voice search		true	765,1204,891,1330	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_lens_btn	android.widget.ImageButton	Camera search		true	891,1204,1017,1330	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_plate	android.widget.LinearLayout			false	63,1204,1017,1330	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_two_right_icons	android.widget.FrameLayout			false	63,1204,1017,1330	com.google.android.googlequicksearchbox
+com.google.android.googlequicksearchbox:id/googleapp_search_widget_ghost_tap_targets	android.widget.FrameLayout			false	63,1194,1017,1341	com.google.android.googlequicksearchbox
+	com.android.launcher3.widget.LauncherAppWidgetHostView	Search		false	48,1108,1032,1427	com.motorola.launcher3
+com.motorola.launcher3:id/folder_icon_name	android.widget.TextView		Google	false	69,1646,273,1746	com.motorola.launcher3
+	android.widget.FrameLayout	Folder: Google, 4 or more items⁦‎‏‏‎‎‎‏‏‏‎‏‏‎‏‏‏‎‏‏‏‎‏‎‏‎‎‏‎‏‎‎‏‏‎‎‏‏‏‎‏‏‏‎‏‏‏‎‎‎‏‎‎‏‎‎‎‏‎‎‎‏‏‎‎‏‏‎‏‏‎‏‎‎‏‎‏‎‎‏‏‎‎‎‎‏‎‏‎‎‎‏‎‏‏‎‏‏‏‏‏‎‏‎‏‎‏‎‎‏‎‎‏‏‏‎‏‏‎‎‏‏‏‎‎‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‎‏‎‎‎‎‏‏‏‏‎‏‎‏‎⁩		true	48,1427,294,1746	com.motorola.launcher3
+	android.widget.TextView	Photos	Photos	true	294,1427,540,1746	com.motorola.launcher3
+com.motorola.launcher3:id/folder_icon_name	android.widget.TextView		Moto	false	807,1646,1011,1746	com.motorola.launcher3
+	android.widget.FrameLayout	Folder: Moto, 4 or more items⁦‎‏‏‎‎‎‏‏‏‎‏‏‎‏‏‏‎‏‏‏‎‏‎‏‎‎‏‎‏‎‎‏‏‎‎‏‏‏‎‏‏‏‎‏‏‏‎‎‎‏‎‎‏‎‎‎‏‎‎‎‏‏‎‎‏‏‎‏‏‎‏‎‎‏‎‏‎‎‏‏‎‎‎‎‏‎‏‎‎‎‏‎‏‏‎‏‏‏‏‏‎‏‎‏‎‏‎‎‏‎‎‏‏‏‎‏‏‎‎‏‏‏‎‎‏‎‎‏‏‏‎‎‎‏‏‎‎‏‎‎‏‎‎‎‎‏‏‏‏‎‏‎‏‎⁩		true	786,1427,1032,1746	com.motorola.launcher3
+	android.widget.TextView	Gemini	Gemini	true	48,1746,294,2065	com.motorola.launcher3
+	android.widget.TextView	Google One	Google One	true	294,1746,540,2065	com.motorola.launcher3
+	android.widget.TextView	Meet	Meet	true	540,1746,786,2065	com.motorola.launcher3
+	android.widget.TextView	Play Store	Play Store	true	786,1746,1032,2065	com.motorola.launcher3
+com.motorola.launcher3:id/workspace	android.widget.ScrollView			false	0,0,1080,2520	com.motorola.launcher3
+	android.view.View	Home⁦‎‏‏‎‎‏‎‏‏‏‎‏‏‏‏‎‎‎‏‏‏‏‏‏‏‎‎‏‎‏‏‎‏‏‎‏‎‏‏‎‏‎‏‏‏‎‏‎‎‏‏‎‎‏‎‏‏‏‎‎‎‏‏‏‎‏‏‎‎‏‏‏‏‎‏‎‏‎‏‏‏‎‎‎‏‎‏‎‎‏‏‎‏‏‎‏‎‏‏‎‎‎‏‎‎‏‎‎‏‎‏‎‏‎‏‎‏‎‏‏‏‏‎‏‏‎‏‎‏‎‏‎‎‏‎‎‎‏‎‏‏‎‎‏‎‎‎‏‎‏‎‏‏‎⁩		false	0,123,1080,2394	com.motorola.launcher3
+com.motorola.launcher3:id/overview_layout_select_tab_view	android.widget.LinearLayout			false	0,123,1080,134	com.motorola.launcher3
+com.motorola.launcher3:id/overview_actions_view	android.widget.FrameLayout			false	0,1874,1080,2520	com.motorola.launcher3
+com.motorola.launcher3:id/page_indicator	android.view.View			false	0,2098,1080,2140	com.motorola.launcher3
+	android.widget.TextView	Phone	Phone	true	48,2140,294,2394	com.motorola.launcher3
+	android.widget.TextView	Messages	Messages	true	294,2140,540,2394	com.motorola.launcher3
+	android.widget.TextView	Chrome	Chrome	true	540,2140,786,2394	com.motorola.launcher3
+	android.widget.TextView	Camera⁦‎‏‏‎‏‎‎‏‎‎‏‎‏‎‏‏‎‎‎‏‎‏‏‎‏‏‏‎‎‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‎‏‏‏‏‎‏‎‎‎‏‏‎‎‏‎‏‏‏‏‎‏‏‎‎‎‏‏‎‎‎‏‏‎‏‎‏‏‏‏‎‏‎‎‎‎‏‎‎‏‎‎‎‏‏‎‏‏‎‏‏‏‏‏‎‏‎‏‏‏‎‎‏‎‎‏‏‏‎‎‎‏‏‎‏‎‏‏‎‏‏‏‎‎‏‏‏‎‎‎‎‏‎‏‏‏‎‎‏⁩	Camera⁦‎‏‏‎‏‎‎‏‎‎‏‎‏‎‏‏‎‎‎‏‎‏‏‎‏‏‏‎‎‏‏‎‎‏‏‏‏‎‎‏‎‏‎‏‏‎‏‏‏‏‎‏‎‎‎‏‏‎‎‏‎‏‏‏‏‎‏‏‎‎‎‏‏‎‎‎‏‏‎‏‎‏‏‏‏‎‏‎‎‎‎‏‎‎‏‎‎‎‏‏‎‏‏‎‏‏‏‏‏‎‏‎‏‏‏‎‎‏‎‎‏‏‏‎‎‎‏‏‎‏‎‏‏‎‏‏‏‎‎‏‏‏‎‎‎‎‏‎‏‏‏‎‎‏⁩	true	786,2140,1032,2394	com.motorola.launcher3
+com.motorola.launcher3:id/hotseat	android.view.ViewGroup			false	0,2140,1080,2520	com.motorola.launcher3
+com.motorola.launcher3:id/drag_layer	android.widget.FrameLayout			false	0,0,1080,2520	com.motorola.launcher3
+com.motorola.launcher3:id/launcher	android.widget.FrameLayout			false	0,0,1080,2520	com.motorola.launcher3
+android:id/content	android.widget.FrameLayout			false	0,0,1080,2520	com.motorola.launcher3

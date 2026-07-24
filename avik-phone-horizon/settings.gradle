@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven {
+            url "https://artifacts.mot.com/artifactory/gradle-dev"
+            // See how to configure credentials at https://confluence.mot.com/display/LT/Gradle
+            credentials {
+                username = artifactoryUsername
+                password = artifactoryPassword
+            }
+        }
+    }
+}
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://artifacts.mot.com/artifactory/gradle-dev"
+            // See how to configure credentials at https://confluence.mot.com/display/LT/Gradle
+            credentials {
+                username = artifactoryUsername
+                password = artifactoryPassword
+            }
+        }
+    }
+}
+rootProject.name = 'Avik2'
+include ':avik-android'

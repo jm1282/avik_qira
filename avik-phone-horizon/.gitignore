@@ -1,0 +1,19 @@
+.gradle
+.idea
+.kotlin
+
+*.zip
+*.7z
+
+avik-android/build
+
+local.properties
+
+# Investigation evidence dumps (decision/analysis docs are kept and tracked;
+# heavy device captures and generated matrices are not).
+artifacts/avik-string-linking-investigation/before-after/
+artifacts/avik-string-linking-investigation/missing-locale-captures-run1/
+artifacts/avik-string-linking-investigation/locale-matrix-run1/
+artifacts/avik-string-linking-investigation/logs/
+artifacts/avik-string-linking-investigation/tag-locale-matrix.csv
+artifacts/avik-string-linking-investigation/tag-locale-matrix.json

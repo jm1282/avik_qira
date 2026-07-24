@@ -1,0 +1,78 @@
+/*
+ * Copyright (c) 2021. Motorola Mobility Inc.
+ * All Rights Reserved.
+ * Motorola Confidential Restricted.
+ */
+plugins {
+    alias libs.plugins.androidApplication
+    // AGP 8.6.1 has no built-in Kotlin support (that is AGP 9+); the
+    // Kotlin Android plugin is required to compile the .kt sources.
+    alias libs.plugins.kotlinAndroid
+}
+
+android {
+    def sdkVersion = rootProject.ext.compileSdkVersion as int
+    def packageName = rootProject.ext.packageName
+    namespace packageName
+    compileSdk 35
+
+    defaultConfig {
+        applicationId packageName
+        // Some avik-* library dependencies declare minSdk 36 in their
+        // manifests; the manifest merger picks the higher value and
+        // emits a benign "minSdkVersion (36) > targetSdkVersion" warning
+        // at configuration time. The warning is harmless - it just says
+        // the effective minSdk is bumped to 36 by transitive libraries.
+        minSdk 34
+        targetSdk sdkVersion
+        versionCode 1
+        versionName '1.0'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        testHandleProfiling false
+        testFunctionalTest false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    lint {
+        abortOnError false
+    }
+    buildToolsVersion '35.0.0'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
+    implementation libs.kotlin.stdlib
+    implementation libs.kotlinx.serialization
+    implementation libs.kotlinx.coroutines
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.test.core
+    implementation libs.androidx.test.runner
+    implementation libs.androidx.test.rules
+    implementation libs.androidx.test.ext.junit
+    implementation libs.androidx.test.uiautomator
+    implementation libs.gson
+    implementation libs.icu4j
+    implementation libs.frevo.common
+    implementation libs.frevo.utils
+    implementation libs.avik.android.client
+    implementation libs.avik.common
+    implementation libs.avik.screenshot
+    implementation libs.avik.interaction
+    implementation libs.avik.utils
+}

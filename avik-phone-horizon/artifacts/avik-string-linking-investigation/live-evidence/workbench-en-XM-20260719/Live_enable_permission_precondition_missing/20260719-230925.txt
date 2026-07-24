@@ -1,0 +1,17 @@
+# Qira UI dump
+# tag: MotorolaQiraFocusZone_Live_enable_permission_precondition_missing
+# timestamp: 20260719-230925
+# package_filter: com.lenovo.qira
+# current_package: com.lenovo.qira
+# display: 1080x2520 rot=0
+# note: The Qira-owned Live enable-permission prompt was not proven by Compose/resource-backed SLAP on Live_Active.
+
+# columns: resource-id	class	content-desc	text	clickable	bounds	package
+	android.widget.TextView		Language model not downloaded, download will start shortly⁦‎‏‏‎‏‏‏‏‎‏‏‎‎‎‏‎‎‏‎‎‏‏‏‏‎‏‎‎‏‏‎‎‏‏‏‏‎‏‎‏‎‏‏‏‎‏‏‏‎‏‎‏‎‏‏‏‏‎‎‎‎‎‏‏‏‎‎‏‎‎‏‏‎‎‎‏‎‏‏‎‏‏‏‎‎‏‏‎‏‎‏‏‎‎‏‎‎‎‏‏‎‎‎‎‏‏‏‎‏‎‏‎‏‎‏‏‎‎‎‏‎‎‏‏‎‏‎‏‏‎‎‏‏‎‏‏‏‎‎‏‏‎‎‏‎‎‎‏‎‎‏‎‏‎⁩	false	84,2046,891,2130	com.lenovo.qira
+	android.view.View	Close⁦‎‏‏‎‏‏‎‏‎‏‎‎‎‎‏‏‏‎‎‎‎‏‎‏‏‎‏‎‎‏‏‎‏‏‎‎‏‏‎‏‏‎‏‏‎‏‏‏‎‎‏‏‎‏‏‏‏‏‎‎‏‏‎‎‏‏‎‏‎‏‏‎‏‎‏‎‏‏‏‏‎‏‎‎‏‏‎‏‏‏‏‏‎‎‎‏‏‏‏‏‎‎‏‎‎‏‎‎‎‏‏‎‏‏‎‎‏‎‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‎‏‏‎‏‎‎‎‏‏‏‎‎‎‎‏‏‎‏‎‎⁩		false	923,2057,986,2120	com.lenovo.qira
+	android.view.View	App Icon⁦‎‏‏‎‏‏‎‏‎‎‎‏‎‎‏‏‏‎‏‏‏‏‎‏‎‏‎‏‏‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‎‎‎‏‏‎‎‏‎‎‏‏‏‏‎‏‏‎‏‎‏‏‎‏‎‏‎‎‏‎‏‎‏‏‎‎‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‏‏‏‎‏‏‎‏‏‏‏‎‎‎‏‏‏‏‎‏‎‏‎‏‎‎‏‏‏‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎‎‏‏‎‏‏‏‎‏‎‎‏⁩		false	214,2276,303,2365	com.lenovo.qira
+	android.view.View	Chat⁦‏‏‏‎‎‏‎‏‎‎‎‎‏‎‏‏‎‏‎‎‎‏‏‎‎‏‎‏‎‏‏‎‎‏‏‏‏‏‎‎‎‎‏‏‏‎‏‏‎‏‏‏‎‏‎‎‏‏‎‎‎‏‏‏‏‎‏‎‎‎‏‎‎‏‎‎‏‏‏‏‎‎‏‎‏‎‎‎‎‎‏‏‎‏‎‎‎‏‎‏‏‎‎‏‎‎‏‏‏‎‎‏‏‏‏‎‏‎‎‏‏‎‏‏‏‎‎‏‏‏‎‎‏‏‏‏‎‏‏‎‎‏‏‎‏‏‎⁩		false	401,2293,453,2348	com.lenovo.qira
+	android.widget.TextView		Live⁦‎‏‏‎‎‎‏‎‏‏‎‏‎‎‏‏‏‎‏‏‎‎‏‏‎‎‎‎‎‏‏‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‏‎‏‏‎‎‎‎‏‎‏‎‏‎‎‎‏‏‎‎‎‎‏‏‎‎‎‎‏‏‎‎‏‎‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‏‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‏‎‎‏‎‏‎‎‎‏‎‏‏‏‏‎‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‏‏⁩	false	545,2298,619,2343	com.lenovo.qira
+	android.view.View	Live⁦‎‏‏‎‎‎‏‎‏‏‎‏‎‎‏‏‏‎‏‏‎‎‏‏‎‎‎‎‎‏‏‎‎‏‏‏‏‏‏‎‎‎‏‎‎‏‏‎‏‎‏‏‎‎‎‎‏‎‏‎‏‎‎‎‏‏‎‎‎‎‏‏‎‎‎‎‏‏‎‎‏‎‏‏‏‎‏‎‎‎‎‏‏‏‎‎‏‏‏‏‎‎‏‏‎‏‎‎‎‏‏‏‏‎‏‎‎‏‎‏‎‎‎‏‎‏‏‏‏‎‏‎‎‏‏‏‎‏‎‏‏‏‏‎‎‏‏⁩		false	640,2289,706,2352	com.lenovo.qira
+	android.view.View	Camera⁦‏‎‎‏‏‏‎‏‏‏‎‎‎‏‏‎‎‎‏‏‏‏‎‎‎‏‎‏‏‎‎‎‏‎‏‎‏‏‎‏‎‎‏‎‏‎‎‎‎‎‏‏‎‏‎‎‏‎‎‎‏‏‎‏‎‏‎‏‏‎‎‏‏‎‎‏‎‏‎‏‏‎‎‎‎‏‏‎‏‎‎‏‎‏‎‎‎‏‏‏‏‎‏‎‏‏‎‎‏‎‎‏‏‎‏‎‎‎‏‏‎‎‏‎‎‏‏‎‎‏‏‏‎‎‏‏‎‎‎‎‎‏‏‎‏‏‏⁩		false	792,2289,855,2352	com.lenovo.qira
+android:id/content	android.widget.FrameLayout			false	0,0,1080,2520	com.lenovo.qira

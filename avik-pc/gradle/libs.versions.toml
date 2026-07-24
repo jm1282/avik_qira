@@ -1,0 +1,95 @@
+[versions]
+# plugins
+android-gradle-plugin = "8.5.0"
+kotlin = "2.0.0"
+
+# libraries
+## Frevo
+frevo = "4.3.0-1718"
+
+## Avik
+avik-android-client = "1.0.0-518"
+avik-windows-client = "1.0.0-514"
+avik-web-client = "1.0.0-515"
+avik-screenshot = "1.0.0-513"
+avik-common = "1.0.0-512"
+avik-interaction = "1.0.0-501"
+avik-utils = "1.0.0-406"
+
+## Android for Android script
+androidx-appcompat = "1.7.0"
+androidx-test = "1.6.1"
+androidx-test-ext = "1.2.1"
+androidx-uiautomator = "2.3.0"
+
+## Google
+gson = "2.10.1"
+
+## ICU
+icu = "73.1"
+
+## Junit
+junit-platform = "1.7.2"
+
+## Kotlin
+kotlinx-coroutines = "1.6.4"
+kotlinx-serialization-json = "1.8.0"
+
+## Selenium for web script
+selenium = "3.141.59"
+
+## Windows Ui Automation for windows script
+win-ui-automation = "0.7.0"
+jna = "5.9.0"
+
+[libraries]
+# Frevo
+frevo-common = { module = "com.motorola.g11n.frevo:frevocommon", version.ref = "frevo" }
+frevo-utils = { module = "com.motorola.g11n.frevo:frevoutils", version.ref = "frevo" }
+
+# Avik
+avik-android-client = { module = "com.motorola.g11n.tools.avik.android:avik-android-client", version.ref = "avik-android-client" }
+avik-windows-client = { module = "com.motorola.g11n.tools.avik.windows:avik-windows-client", version.ref = "avik-windows-client" }
+avik-web-client = { module = "com.motorola.g11n.tools.avik.web:avik-web-client", version.ref = "avik-web-client" }
+
+avik-screenshot = { module = "com.motorola.g11n.tools.avik.android:avik-client-screenshot-service", version.ref = "avik-screenshot" }
+avik-common = { module = "com.motorola.g11n.tools.avik:avik-workbench-common", version.ref = "avik-common" }
+avik-interaction = { module = "com.motorola.g11n.tools.avik:avik-workbench-interaction", version.ref = "avik-interaction" }
+avik-utils = { module = "com.motorola.g11n.avik:avikutils", version.ref = "avik-utils" }
+
+# Android
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-test-ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-test-ext" }
+androidx-test-core = { module = "androidx.test:core", version.ref = "androidx-test" }
+androidx-test-rules = { module = "androidx.test:rules", version.ref = "androidx-test" }
+androidx-test-runner = { module = "androidx.test:runner", version.ref = "androidx-test" }
+androidx-test-uiautomator = { module = "androidx.test.uiautomator:uiautomator", version.ref = "androidx-uiautomator" }
+
+# Google
+gson = { module = "com.google.code.gson:gson", version.ref = "gson"}
+
+# ICU
+icu4j = { module = "com.ibm.icu:icu4j", version.ref = "icu"}
+
+# Junit
+junit-platform = { module = "org.junit.platform:junit-platform-console-standalone", version.ref = "junit-platform"}
+
+# Kotlin
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib" }
+kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+
+# Selenium
+selenium-driver = { module = "org.seleniumhq.selenium:selenium-chrome-driver", version.ref = "selenium" }
+selenium-java = { module = "org.seleniumhq.selenium:selenium-java", version.ref = "selenium" }
+selenium-server = { module = "org.seleniumhq.selenium:selenium-server", version.ref = "selenium" }
+
+# Windows Client related
+windows-ui-automation = { module = "com.github.mmarquee:ui-automation", version.ref = "win-ui-automation" }
+jna = { module = "net.java.dev.jna:jna", version.ref = "jna" }
+jna-platform = { module = "net.java.dev.jna:jna-platform", version.ref = "jna" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

@@ -1,0 +1,16 @@
+node_modules/**
+
+build
+coverage
+.eslintignore
+.prettierignore
+.husky/**
+.env-cmdrc
+.gitignore
+*.ico
+*logo.svg
+*.png
+*.txt
+.vscode/**
+.next/**
+public/**

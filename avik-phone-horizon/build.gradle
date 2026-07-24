@@ -1,0 +1,42 @@
+/*
+ * Copyright (c) 2021. Motorola Mobility Inc.
+ * All Rights Reserved.
+ * Motorola Confidential Restricted.
+ */
+buildscript {
+    ext.compileSdkVersion = 35
+    ext.packageName = "com.motorola.avikscripts"
+    // Note: If you face an error message about corrupted SDK, it is an issue with the Android SDK.
+    // To fix that, please rename these files:
+    // - Directory $ANDROID_HOME/build-tools/<version>
+    //       d8 > dx (d8.bat > dx.bat on Windows)
+    // - Directory $ANDROID_HOME/build-tools/<version>/lib
+    //       d8.jar > dx.jar.
+    // See more details at https://stackoverflow.com/a/68430992/5038317
+}
+
+subprojects {
+    apply plugin: "idea"
+
+    idea {
+        module {
+            downloadJavadoc = true
+            downloadSources = true
+        }
+    }
+
+    pluginManager.withPlugin("org.jetbrains.kotlin.jvm") {
+        kotlin {
+            jvmToolchain {
+                languageVersion.set(JavaLanguageVersion.of(17))
+            }
+        }
+    }
+
+    pluginManager.withPlugin("java") {
+        java {
+            sourceCompatibility = JavaVersion.VERSION_17
+            targetCompatibility = JavaVersion.VERSION_17
+        }
+    }
+}
